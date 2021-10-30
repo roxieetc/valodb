@@ -16,19 +16,22 @@ function AgentList() {
     }, [])
 
     let agentList = agents.map((info) => {
-        const {displayName, fullPortrait} = info
+        const {displayName, displayIcon} = info
     
         return (
              <div className="agentCards">
                 <h2 className="agentName">{displayName}</h2>
-                <img src={fullPortrait} alt={displayName} className="agentImage" />
+                <img src={displayIcon} alt={displayName} className="agentImage" />
             </div>
         )
     })
 
     return (
+        <div>
+            <h1>Agents</h1>
         <div className="agentList">
             {agentList}
+        </div>
         </div>
     )
 }
