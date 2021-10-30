@@ -9,6 +9,9 @@ function Homepage() {
         <Link to ={'/agents'} className="agentsLink">
             <button className="hpButton"><h1 className="linkText">agents</h1></button>
         </Link>
+        <Link to ={'/maps'} className="mapsLink">
+            <button className="hpButton"><h1 className="linkText">maps</h1></button>
+        </Link>
         </div>
     )
 }
