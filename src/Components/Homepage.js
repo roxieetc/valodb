@@ -15,6 +15,9 @@ function Homepage() {
         <Link to ={'/weapons'} className="weaponsLink">
             <button className="hpButton"><h1 className="linkText">weapons</h1></button>
         </Link>
+        <Link to ={'/playercards'} className="cardsLink">
+            <button className="hpButton"><h1 className="linkText">player cards</h1></button>
+        </Link>
         </div>
     )
 }
