@@ -23,13 +23,20 @@ body {
 
 .agentCards {
   margin: auto;
-  max-width: 300px;
-  max-height: 400px;
-  border-radius: 80px;
-  padding: 25px;
+  max-height: 210px;
+  min-width: 150px;
+  padding: 5px;
   margin: 10px;
+  background: rgba(255, 255, 255, 0.1);
   overflow: auto;
-  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(187, 187, 187);
+  box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.agentCards:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .agentName {
@@ -63,12 +70,10 @@ h1 {
   border-radius: 10px;
   width: 300px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .hpButton:hover {
-  /* background: linear-gradient(#ce3636, transparent),
-    linear-gradient(-45deg, #1a76e0, transparent),
-    linear-gradient(45deg, #442020, transparent);
-  background-blend-mode: multiply; */
   box-shadow: 3px 1px 50px rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
 }
