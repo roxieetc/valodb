@@ -37,19 +37,12 @@ body {
   transform: scale(1.03);
 }
 
-.agentsLink {
-  text-decoration: none;
+.buttonList {
+  margin: auto;
+  width: 300px;
 }
 
-.mapsLink {
-  text-decoration: none;
-}
-
-.weaponsLink {
-  text-decoration: none;
-}
-
-.cardsLink {
+.singleLink {
   text-decoration: none;
 }
 
