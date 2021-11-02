@@ -7,7 +7,6 @@ function AgentInfo({ match }) {
     const getInfo = async () => {
         const response = await fetch(`https://valorant-api.com/v1/agents/${match.params.id}`)
         const json = await response.json()
-        console.log(json.data)
         setInfo(json.data)
     }
 

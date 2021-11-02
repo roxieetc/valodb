@@ -16,13 +16,15 @@ function WeaponsList() {
     }, [])
 
     let weaponList = weapons.map((info) => {
-        const {displayName, displayIcon} = info
+        const {displayName, displayIcon, uuid} = info
     
         return (
-             <div className="weaponCards">
-                <h2 className="weaponName">{displayName}</h2>
-                <img src={displayIcon} alt={displayName} className="weaponImage" />
-            </div>
+            <Link to={'/weapons/' + uuid} className="singleLink">
+                <div className="weaponCards">
+                    <h2 className="weaponName">{displayName}</h2>
+                    <img src={displayIcon} alt={displayName} className="weaponImage" />
+                </div>
+            </Link>
         )
     })
 

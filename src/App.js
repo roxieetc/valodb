@@ -6,6 +6,7 @@ import MapList from './Components/MapList';
 import WeaponsList from './Components/WeaponsList';
 import PlayerCards from './Components/PlayerCards';
 import AgentInfo from './Components/AgentInfo';
+import Skins from './Components/Skins';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/weapons' component={WeaponsList} />
         <Route exact path='/playercards' component={PlayerCards} />
         <Route exact path='/agents/:id' component={AgentInfo} />
+        <Route exact path='/weapons/:id' component={Skins} />
       </Router>
     </div>
   );
