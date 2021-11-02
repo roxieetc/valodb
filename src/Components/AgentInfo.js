@@ -16,10 +16,10 @@ function AgentInfo({ match }) {
     }, [])
 
         return (
-            <div>
+            <div className="agentInfo">
+                <img src={info.fullPortrait} className="agentPicture" alt="agent" />
                 <h1>{info.displayName}</h1>
-                <img src={info.fullPortrait} alt="agent" />
-                <p>{info.description}</p>
+                <p className="agentDescription">{info.description}</p>
             </div>
     )
 }

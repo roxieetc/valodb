@@ -219,3 +219,26 @@ h1 {
   font-size: 50px;
   font-weight: 100;
 }
+
+/* AGENT INFO PAGE ------------------------ */
+
+.agentInfo {
+  margin: auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: auto;
+  border: 1px solid rgb(187, 187, 187);
+  box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
+}
+
+.agentPicture {
+  max-height: 600px;
+  display: flex;
+  align-content: flex-start;
+}
+
+.agentDescription {
+  color: white;
+  width: 500px;
+  float: right;
+}
