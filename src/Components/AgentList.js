@@ -16,13 +16,15 @@ function AgentList() {
     }, [])
 
     let agentList = agents.map((info) => {
-        const {displayName, displayIcon} = info
+        const {displayName, displayIcon, uuid} = info
     
         return (
+            <Link to={'/agents/' + uuid} className="singleLink">
              <div className="agentCards">
                 <h2 className="agentName">{displayName}</h2>
                 <img src={displayIcon} alt={displayName} className="agentImage" />
             </div>
+            </Link>
         )
     })
 
