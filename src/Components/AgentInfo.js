@@ -32,18 +32,18 @@ function AgentInfo({ match }) {
 
         return (
             <div>
-                
+                <h1>Agent Information</h1>
                 <div className="agentInfo">
                     <div className="agentImageContainer">
                         <img src={info.fullPortrait} className="agentPicture" alt="agent" />
                     </div>
                     <div className="descriptionContainer">
-                    <h1>{info.displayName}'s Info</h1>
-                    <div className="roleContainer">
-                    <h3><img src={roles.displayIcon} className="agentRoleIcon" alt="role" />{roles.displayName}</h3>
+                        <h1>{info.displayName}'s Info</h1>
+                        <div className="roleContainer">
+                            <h3><img src={roles.displayIcon} className="agentRoleIcon" alt="role" />{roles.displayName}</h3>
                         </div>
                         <p className="agentDescription">{info.description}</p>
-                        <h2>Abilities</h2>
+                        <h2 className="abilityTitle">Abilities</h2>
                         {abilitiesList}
                     </div>
                 </div>
