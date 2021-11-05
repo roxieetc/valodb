@@ -128,6 +128,18 @@ h1 {
   padding: 0px 20px;
 }
 
+.roleContainer {
+  max-width: 350px;
+  padding: 0px 20px;
+  margin: -15px 0px;
+}
+
+.agentRoleIcon {
+  height: 20px;
+  width: 20px;
+  margin-right: 2%;
+}
+
 .abilityList {
   display: inline-block;
   max-width: 350px;
@@ -153,6 +165,12 @@ h2 {
   color: white;
   font-weight: 100;
   margin-top: 25%;
+}
+
+h3 {
+  font-family: "Unica One", cursive;
+  font-size: 20px;
+  color: white;
 }
 
 /* MAPS PAGE ------------------------ */
