@@ -97,27 +97,62 @@ h1 {
 
 .agentInfo {
   margin: auto;
-  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
   max-height: 800px;
-  max-width: 800px;
+  max-width: 700px;
+  overflow: hidden;
   background: rgba(255, 255, 255, 0.1);
-  overflow: auto;
-  /* border: 1px solid rgb(187, 187, 187); */
   box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
+}
+
+.agentImageContainer {
+  width: 250px;
+  overflow: hidden;
+  margin-left: 5%;
+  padding-bottom: 2%;
+}
+
+.agentPicture {
+  margin-left: -130px;
+  max-height: 500px;
+  padding-right: 5px;
+  float: left;
 }
 
 .agentDescription {
   color: white;
-  width: 500px;
+  max-width: 400px;
+  margin-top: 10%;
+  padding: 0px 20px;
 }
 
-.agentPicture {
-  max-height: 500px;
+.abilityList {
+  display: inline-block;
+  max-width: 350px;
+  margin: 0px 5px;
 }
 
-.agentImageContainer {
-  max-height: 800px;
-  float: left;
+.abilityIcon {
+  max-width: 25px;
+  max-height: 25px;
+  padding: 0px 5px;
+}
+
+.abilityName {
+  font-family: "Unica One", cursive;
+  font-size: 16px;
+  color: white;
+  padding: 0px 5px;
+}
+
+h2 {
+  font-family: "Unica One", cursive;
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+  margin-top: 25%;
 }
 
 /* MAPS PAGE ------------------------ */
