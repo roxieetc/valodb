@@ -303,6 +303,53 @@ h1 {
   font-weight: 100;
 }
 
+/* SPRAYS PAGE */
+
+.sprayList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sprayCards {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  border: 1px solid rgb(187, 187, 187);
+  box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.sprayCards:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.sprayName {
+  font-family: "Unica One", cursive;
+  font-size: 25px;
+  color: white;
+}
+
+.sprayImage {
+  max-width: 350px;
+  max-height: 200px;
+}
+
+h1 {
+  font-family: "Unica One", cursive;
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+}
+
 /* PLAYER CARDS PAGE ------------------------ */
 
 .cardList {

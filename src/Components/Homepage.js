@@ -17,6 +17,9 @@ function Homepage() {
                     <Link to ={'/weapons'} className="singleLink">
                         <button className="hpButton"><h1 className="linkText">weapons</h1></button>
                     </Link>
+                    <Link to ={'/sprays'} className="singleLink">
+                        <button className="hpButton"><h1 className="linkText">sprays</h1></button>
+                    </Link>
                     <Link to ={'/playercards'} className="singleLink">
                         <button className="hpButton"><h1 className="linkText">player cards</h1></button>
                     </Link>
