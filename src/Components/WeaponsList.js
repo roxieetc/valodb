@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import useSound from "use-sound";
+import buttonClick from '../Sounds/422836__gamedevc__g-ui-button-hover-1.wav';
 
 function WeaponsList() {
 
     const [weapons, setWeapons] = useState([]);
+    const [sound] = useSound(buttonClick);
 
     const getWeapons = async () => {
         const response = await fetch('https://valorant-api.com/v1/weapons')
@@ -20,7 +23,7 @@ function WeaponsList() {
     
         return (
             <Link to={'/weapons/' + uuid} className="singleLink">
-                <div className="weaponCards">
+                <div className="weaponCards" onMouseEnter={() => sound()}>
                     <h2 className="weaponName">{displayName}</h2>
                     <img src={displayIcon} alt={displayName} className="weaponImage" />
                 </div>
