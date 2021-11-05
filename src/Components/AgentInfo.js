@@ -15,10 +15,14 @@ function AgentInfo({ match }) {
     }, [])
 
         return (
-            <div className="agentInfo">
-                <img src={info.fullPortrait} className="agentPicture" alt="agent" />
-                <h1>{info.displayName}</h1>
-                <p className="agentDescription">{info.description}</p>
+            <div>
+                <h1>{info.displayName}'s Info</h1>
+                <div className="agentInfo">
+                    <div className="agentImageContainer">
+                        <img src={info.fullPortrait} className="agentPicture" alt="agent" />
+                    </div>
+                    <p className="agentDescription">{info.description}</p>
+                </div>
             </div>
     )
 }
