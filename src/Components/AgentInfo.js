@@ -18,8 +18,12 @@ function AgentInfo({ match }) {
         getInfo()
     }, [])
 
+    
+    const abilityFilter = abilities.filter(function(place, index) {
+        return index < 4;
+    })
 
-    let abilitiesList = abilities.map((util) => {
+    let abilitiesList = abilityFilter.map((util) => {
         const {displayName, displayIcon} = util
 
         return (
