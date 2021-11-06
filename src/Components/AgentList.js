@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import useSound from "use-sound";
-import buttonClick from '../Sounds/422836__gamedevc__g-ui-button-hover-1.wav';
 
 function AgentList() {
 
     const [agents, setAgents] = useState([]);
-    const [sound] = useSound(buttonClick);
 
     const getAgents = async () => {
         const response = await fetch('https://valorant-api.com/v1/agents')
@@ -23,7 +20,7 @@ function AgentList() {
     
         return (
             <Link to={'/agents/' + uuid} className="singleLink">
-                <div className="agentCards" onMouseEnter={() => sound()}>
+                <div className="agentCards">
                     <h2 className="agentName">{displayName}</h2>
                     <img src={displayIcon} alt={displayName} className="agentImage" />
                 </div>
