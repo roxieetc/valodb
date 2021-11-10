@@ -15,7 +15,11 @@ function AgentList() {
         getAgents();
     }, [])
 
-    let agentList = agents.map((info) => {
+    const agentFilter = agents.filter((agentId) => {
+        return agentId.uuid !== "ded3520f-4264-bfed-162d-b080e2abccf9"
+    })
+
+    let agentList = agentFilter.map((info) => {
         const {displayName, displayIcon, uuid} = info
     
         return (
