@@ -14,7 +14,11 @@ function SpraysList() {
         getSprays();
     }, [])
 
-    let sprayList = sprays.map((info) => {
+    const sprayFilter = sprays.filter((sprayId) => {
+        return sprayId.fullTransparentIcon !== null;
+    })
+
+    let sprayList = sprayFilter.map((info) => {
         const {displayName, fullTransparentIcon} = info
     
         return (
