@@ -31,6 +31,9 @@ function WeaponsList() {
     return (
         <div>
             <h1>Weapons</h1>
+            <Link to={'/bundles'}>
+            <button className="bundlesButton">Weapon Bundles</button>
+            </Link>
         <div className="weaponList">
             {weaponList}
         </div>
