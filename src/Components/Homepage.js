@@ -5,7 +5,7 @@ function Homepage() {
 
     return (
         <div>
-            <h1>Valorant by Riot Games</h1>
+            <h1>Valorant Database</h1>
                 <div className="buttonList">
         
                     <Link to ={'/agents'} className="singleLink">

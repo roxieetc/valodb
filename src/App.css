@@ -1,5 +1,5 @@
 .homeLink {
-  max-width: 100px;
+  max-width: 80px;
   display: flex;
   justify-content: left;
   margin-left: 15px;
@@ -21,7 +21,6 @@ body {
     linear-gradient(45deg, #e27b7b, transparent);
   background-blend-mode: multiply;
   height: 100%;
-  margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
