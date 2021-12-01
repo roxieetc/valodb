@@ -49,6 +49,7 @@ body {
 .buttonList {
   margin: auto;
   width: 300px;
+  margin-bottom: 25px;
 }
 
 .singleLink {
@@ -338,14 +339,11 @@ h1 {
   margin: 10px;
   background: rgba(255, 255, 255, 0.1);
   overflow: auto;
-  /* border: 1px solid rgb(187, 187, 187); */
   box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
-  /* transition: all 0.3s ease-in-out;  */
 }
 
 .skinCards:hover {
   cursor: pointer;
-  /* transform: scale(1.03); */
 }
 
 .skinNames {
@@ -385,15 +383,8 @@ h1 {
   margin: 10px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
-  /* border: 1px solid rgb(187, 187, 187); */
   box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
-  /* transition: all 0.3s ease-in-out; */
 }
-
-/* .sprayCards:hover {
-  cursor: pointer;
-  transform: scale(1.03);
-} */
 
 .sprayName {
   font-family: "Unica One", cursive;
@@ -467,6 +458,7 @@ h1 {
     max-width: 350px;
     margin-bottom: 15px;
   }
+
   .mapImage {
     max-width: 350px;
   }
@@ -493,5 +485,31 @@ h1 {
     position: absolute;
     left: 8px;
     font-size: 16px;
+  }
+
+  /* AGENT INFORMATION ---------------------------------------- */
+
+  .agentInfo {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-height: 800px;
+    max-width: 800px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
+    margin: 0px 15px;
+  }
+
+  .agentImageContainer {
+    width: 250px;
+    overflow: visible;
+    position: absolute;
+    margin-left: 100px;
+  }
+
+  .agentPicture {
+    max-height: 400px;
+    opacity: 0.2;
   }
 }
