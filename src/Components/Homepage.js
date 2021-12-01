@@ -5,7 +5,7 @@ function Homepage() {
 
     return (
         <div>
-            <h1>Valorant Database</h1>
+            <h1 className="hpTitle">Valorant Database</h1>
                 <div className="buttonList">
         
                     <Link to ={'/agents'} className="singleLink">

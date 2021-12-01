@@ -451,6 +451,10 @@ h1 {
 /* RESPONSIVE DESIGN // MEDIA QUERY ------------------------ */
 
 @media (max-width: 400px) {
+  .hpTitle {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   /* MAPS -------------------------------------------------- */
 
   .mapCards {
