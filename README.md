@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Valorant by Riot Games Database
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## About the app:
 
-In the project directory, you can run:
+The Valorant database is a collection of game data from the popular online FPS game, Valorant. Users can navigate through the app to discover agent info, weapon info and skin options, game bundles, maps, and more. Navigate through the different options on the homescreen and use the Valorant logo in the top left corner to link back to the homepage and explore more options.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Photos:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Homepage**
+![Homepage](/src/Screenshots/Homepage.png)
 
-### `npm test`
+**Agents**
+![Homepage](/src/Screenshots/AgentList.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Agent Info**
+![Homepage](/src/Screenshots/AgentInfo.png)
 
-### `npm run build`
+**Maps**
+![Homepage](/src/Screenshots/Maps.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Weapons**
+![Homepage](/src/Screenshots/Weapons.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Weapon Skins**
+![Homepage](/src/Screenshots/WeaponSkins.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**API**: Information for this database was pulled from the unofficial Valorant API site, which can be found at: https://valorant-api.com/. All information, images, and descriptions are found within this API.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Frontend**: This app was created using ReactJS and styled with CSS. React hooks, router, and fetch methods were all utilized to pull information and display as desired. CSS was used to create styling, as well as make all pages responsive and compatible with mobile devices.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_All agents, content, and artwork within this app are © to Riot Games, Inc. This app is in no way affiliated with Riot Games, Inc. or Valorant._
