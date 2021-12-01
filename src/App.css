@@ -460,6 +460,8 @@ h1 {
 /* RESPONSIVE DESIGN // MEDIA QUERY ------------------------ */
 
 @media (max-width: 375px) {
+  /* MAPS -------------------------------------------------- */
+
   .mapCards {
     margin: auto;
     max-width: 350px;
@@ -467,5 +469,29 @@ h1 {
   }
   .mapImage {
     max-width: 350px;
+  }
+
+  /* BUNDLES ---------------------------------------------- */
+
+  .Bundle {
+    position: relative;
+    margin: auto;
+    max-width: 375px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .bundleImage {
+    max-width: 350px;
+    border: 1px solid white;
+    box-shadow: 23px 2px 20px rgba(78, 10, 109, 0.2);
+  }
+
+  .bundleName {
+    color: white;
+    font-family: "Unica One", cursive;
+    position: absolute;
+    left: 8px;
+    font-size: 16px;
   }
 }
