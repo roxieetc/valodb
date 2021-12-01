@@ -10,7 +10,6 @@ import Skins from './Components/Skins';
 import Sprays from './Components/Sprays';
 import Bundles from './Components/BundlesList';
 import Icon from './valologo.png';
-
 function App() {
   return (
     <div className="App">
@@ -29,7 +28,6 @@ function App() {
         <Route exact path='/bundles' component={Bundles} />
         <Route exact path='/weapons/:id' component={Skins} />
         <Route exact path='/sprays' component={Sprays} />
-        
       </Router>
     </div>
   );
