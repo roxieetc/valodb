@@ -16,10 +16,7 @@
 
 html,
 body {
-  /* background-image: linear-gradient(#ce3636, transparent),
-    linear-gradient(-45deg, #2987f3, transparent),
-    linear-gradient(45deg, #e27b7b, transparent); */
-  background-image: linear-gradient(to bottom right, #ce3636, #227292);
+  background-image: linear-gradient(to bottom right, #ce3636, #2884a8);
   background-blend-mode: multiply;
   height: 100%;
   background-repeat: no-repeat;
@@ -458,4 +455,17 @@ h1 {
   color: white;
   font-size: 50px;
   font-weight: 100;
+}
+
+/* RESPONSIVE DESIGN // MEDIA QUERY ------------------------ */
+
+@media (max-width: 375px) {
+  .mapCards {
+    margin: auto;
+    max-width: 350px;
+    margin-bottom: 15px;
+  }
+  .mapImage {
+    max-width: 350px;
+  }
 }
