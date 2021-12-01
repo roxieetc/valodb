@@ -49,7 +49,7 @@ body {
 .buttonList {
   margin: auto;
   width: 300px;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .singleLink {
